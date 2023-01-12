@@ -1,0 +1,73 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hero_left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 8rem;
+    gap: 2rem;
+}
+.hero_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.cardprofile{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: flex-start;
+   
+}
+
+.cardbottom{
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.bottom1{
+    flex: 1;
+}
+
+.bottom2{
+    flex: 1;
+}
+
+
+
+.cardtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero_left{
+        padding-left: 1rem;
+    }
+
+    .lcardbutton>span{
+         margin-right: 0.5rem;
+    }
+}
